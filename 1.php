@@ -55,12 +55,13 @@ $t = date("H");
 
 if ($t < "20" and $t>"9") {
   echo "Have a good day!";
-} elseif($t==20) {
+} elseif($t==21) {
   echo "Have a good evening!";
 }else{
 	echo"Have a good night";
 }
-
+echo "<br>";
+echo "Well done !";
 
 $x = 1;
 
